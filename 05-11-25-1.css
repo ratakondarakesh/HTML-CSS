@@ -1,0 +1,12 @@
+#lendo{
+    background-image: url('https://preview.colorlib.com/theme/lendo/assets/img/hero/h1_hero.jpg.webp');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+}
+#lendo div{
+    background-color: rgb(245, 245, 220, 0.3);
+}
