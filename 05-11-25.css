@@ -1,0 +1,28 @@
+.project{
+    border: 2px solid #151517;
+    text-align: center;
+}
+.project h1{
+    background-color: #31d492;
+}
+.project h3{
+    background-color: hsl(69, 49%, 67%);
+}
+#assistance{
+    text-align: center;
+    border: 2px solid hsl(0, 3%, 6%);
+}
+#assistance h1{
+    background-color: blueviolet;
+}
+#assistance p{
+    background-color: rgb(122, 7, 44);
+}
+.employees{
+    text-align: center;
+    border: 2px solid rgb(10, 10, 10);
+}
+.employees h3{
+    background-color: aqua;
+}
+
