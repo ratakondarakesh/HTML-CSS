@@ -1,0 +1,47 @@
+#academia{
+    border: 2px solid black;
+}
+#welcome{
+    background-image: url('https://preview.colorlib.com/theme/academia/images/bg_1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: contain;
+    text-align: center;
+    font-size: x-large;
+    border: 2px solid black;
+}
+#girl-img{
+    border: 2px solid black;
+}
+#learn-anything{
+    text-align: center;
+    border: 2px solid black;
+}
+#norway{
+    margin:50px 0px 50px 480px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+#norway img{
+    width: 100%;
+}
+#norway p{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#all-food{
+    background-image: url('https://preview.colorlib.com/theme/allfood/assets/img/hero/h1_hero.png.webp');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 100px 50px;
+}
+#all-food a{
+    border-radius: 10px;
+    background-color: orangered;
+    padding: 12px 10px;
+}
