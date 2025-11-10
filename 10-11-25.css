@@ -1,0 +1,62 @@
+#get-loan {
+    width: 85%;
+    margin:auto;
+}
+
+#easy-steps{
+    float: left;
+    width: 38%; 
+    height:auto;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+#picture{
+    float: right;
+    width: 43%; 
+    height:auto;
+    padding-right: 60px;
+}
+
+#easy-steps h1{
+    font-size:40px;
+    color: #0f4332;
+   
+}
+#easy-steps p{
+    font-size:large;    
+    max-width: 100%;
+    color: #444;  
+    border-bottom: 1.5px solid #cfdfda;
+    padding-bottom:20px ; 
+}
+
+#get-loan {
+    padding: 30px 50px
+}
+
+#picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#easy-steps h4, #easy-steps a{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+#easy-steps h4{
+    color: #0f4332;
+}
+#easy-steps a{
+    border: 2px solid green;
+    margin-top: 25px;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block; 
+    color: #0f4332;
+
+}
+br{
+    clear: both;
+}
