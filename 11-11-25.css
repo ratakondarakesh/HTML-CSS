@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+#myntra{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+#brand-color-discount-range{
+    flex:0.15;
+    border-right: 1px solid black;
+    height: auto;
+}
+#brand-color-discount-range p{
+    font-size: 12px;
+}
+#t-shirts{
+    flex: 0.85;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px 0px 25px 25px;
+    height: auto;
+    
+}
+.top-wear{
+    width: 23%;
+    height: auto;
+    
+}
+.top-wear img{
+    width: 100%;
+    height: auto;
+}
+.top-wear > div{
+    padding: 0px 10px;
+    font-size: 10px;
+}
+#brand, #color, #discount-range{
+    padding: 10px 30px;
+}
+
