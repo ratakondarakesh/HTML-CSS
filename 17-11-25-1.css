@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#imagine{
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:fixed;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+#menu-list ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: lighter;
+}
+#menu-list span{
+    color: blue;
+}
+
+#navbar a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+} 
+#logo{
+    font-size: 30px;
+}
+#logo span{
+    color: blue;
+}
+
+
+#make-your-business-more-profitable{
+    display: flex;
+    
+}
+#make-your-business{
+    width: 50%;
+    padding: 20px 60px;
+
+}
+#make-your-business h1{
+    font-size: 50px;
+}
+#make-your-business p{
+    margin-bottom: 60px;
+}
+
+
+#photo{
+    width: 60%;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+#photo img{
+    width:130%;
+}
+#make-your-business button{
+    color: white;
+    background-color: #4285f4;
+    padding: 18px 32px;
+    border-radius: 120px;
+    border: none;
+}
+
+/* FEATURES SECTION */
+#imagine-features {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+#features h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#features p {
+    margin: 0 auto 60px auto;
+    color: grey;
+    line-height: 1.6;
+} 
+
+/* CARDS */
+#features-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 80px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+.cards {
+    background-color: #f5f5f5;
+    width: 300px;
+    padding: 50px 30px;
+    border-radius:10px ;
+    text-align: center;
+    position: relative;
+}
+
+.cards .icon{
+    width: 80px;
+    height: 80px;
+    background-color: #4285f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    left:135px;
+    box-shadow: 0 10px 25px rgba(66, 133, 244, 0.3);
+}
+.cards h3{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.cards p {
+    color: grey;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+
+}
+.cards a{
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+}
