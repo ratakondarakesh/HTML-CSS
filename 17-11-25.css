@@ -1,0 +1,136 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+
+
+#first-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+#first-nav-bar i {
+    font-size: 12px;
+}
+
+#first-nav-bar span {
+    font-size: 15px;
+}
+
+#timings-section {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+#second-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0px;
+    background-color: white;  
+
+}
+
+#menu ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#icon-booknow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#icon-booknow button{
+    padding: 8px 18px;
+    border-radius: 12px;
+}
+
+
+#we-care-about {
+    background-image: url('https://preview.colorlib.com/theme/akame/img/bg-img/16.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+
+
+
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#menu ul li a:hover {
+    color: #c7a65a;
+}
+
+
+
+#we-care-about h1,
+p,
+b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#we-care-about h1,
+#we-care-about p,
+#we-care-about b {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#we-care-about h1 {
+    margin-bottom: 45px;
+    font-size: 80px;
+
+}
+
+#we-care-about p {
+    margin-bottom: 45px;
+    width: 510px;
+    font-size:18px;
+
+
+}
+#we-care-about{
+    margin-top: 0px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#we-care-about button{
+
+    padding: 10px 18px;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
